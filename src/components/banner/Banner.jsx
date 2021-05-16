@@ -1,6 +1,4 @@
 import React from "react";
-import styled from "styled-components";
-import HeaderImg from "../../assets/images/img/headerBcg.jpeg";
 
 function Banner() {
   return (
