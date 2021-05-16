@@ -1,35 +1,19 @@
 import React from "react";
-
+import Logo from "../../assets/images/img/logo.svg";
 function Footer() {
   return (
-    <footer>
-      <div className="container-fluid">
+    <footer id="footer" className="footer py-5 text-white">
+      <div className="container">
         <div className="row">
-          <div className="col-sm-6">
-            <h1 className="text-center">
-              <strong>Cakey Cakey</strong>
-            </h1>
-            <div className="footer-icon my-3 d-flex justify-content-around flex-wrap">
-              <a href="#fb">fb</a>
-              <a href="#fb">yt</a>
-              <a href="#fb">twi icon</a>
-              <a href="#fb">pin icon</a>
-            </div>
-          </div>
-          <div className="col-sm-6 mx-auto text-center">
-            <h3>contact</h3>
-            <p className="d-flex flex-wrap">
-              <span>icon</span>
-              <span>123 abesim street</span>
+          <div className="col px-3 text-center my-3">
+            <img src={Logo} alt="" className="img-fluid" />
+            <p className="text-secondary desc my-5 text-white w-75 mx-auto">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Laboriosam quod quos deleniti, in ullam dolorem sequi nemo rem,
+              recusandae, iure ratione. Maxime libero soluta, vitae nisi alias
+              assumenda temporibus molestiae.
             </p>
-            <p className="d-flex flex-wrap">
-              <span>icon</span>
-              <span>123 abesim street</span>
-            </p>
-            <p className="d-flex flex-wrap">
-              <span>icon</span>
-              <span>123 abesim street</span>
-            </p>
+            <p className="title">2021 Cake Cakey Cake</p>
           </div>
         </div>
       </div>

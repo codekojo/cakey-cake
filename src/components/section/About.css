@@ -17,3 +17,9 @@
   left: 0;
   background: red;
 }
+
+.about {
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: capialize;
+}

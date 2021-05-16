@@ -7,3 +7,111 @@
 .nav-link {
   color: red;
 }
+
+.link {
+  /* font-family: "Caveat", cursive; */
+  font-family: "Source Code Pro", monospace;
+
+  font-size: 1.5rem;
+}
+
+.title-prop {
+  font-family: "Source Code Pro", monospace;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.xxo {
+  font-size: 2rem;
+  color: #242325;
+}
+
+.cake {
+  color: #696969;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.book__btn {
+  border: 0.1rem solid #696969 !important;
+  border-radius: 0.2rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  color: #242325;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in;
+}
+
+.book__btn:hover {
+  background-color: #696969;
+  color: white;
+  text-decoration: none;
+}
+.xlo {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.about {
+  font-family: "Source Code Pro", monospace;
+  font-size: 3rem;
+  text-transform: capialize;
+}
+
+.desc {
+  color: #242325;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.1rem;
+}
+
+.title {
+  font-family: "Source Code Pro", monospace;
+}
+
+.price {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+}
+
+.store {
+  background-color: #9492924d;
+}
+
+.order {
+  font-family: "Caveat", cursive;
+  font-size: 1.8rem;
+}
+
+.footer {
+  background-color: #242325;
+}
+
+.banner {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("./assets/images/img/headerBcg.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.max-height {
+  min-height: calc(100vh - 69px);
+}
+
+/* 
+linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/img/bannerBcg.jpeg"); */

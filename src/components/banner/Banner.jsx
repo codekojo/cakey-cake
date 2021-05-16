@@ -4,29 +4,19 @@ import HeaderImg from "../../assets/images/img/headerBcg.jpeg";
 
 function Banner() {
   return (
-    <BannerBackground className="container-fluid xoverlay">
+    <div className="container-fluid xoverlay banner">
       <div className="row max-height justify-content-center align-items-center">
         <div className="col-10 mx-auto banner text-center">
-          <h1>
-            Welcome to <strong>Cake Cakey Cake</strong>
+          <h1 className="title-prop ">
+            Welcome to <strong className="cake">Cake Cakey Cake</strong>
           </h1>
-          <a href="">explore</a>
+          <a href="#explore" className="book__btn py-1 px-3 m-3">
+            explore
+          </a>
         </div>
       </div>
-    </BannerBackground>
+    </div>
   );
 }
 
 export default Banner;
-
-const BannerBackground = styled.div`
-  .max-height {
-    min-height: calc(100vh - 69px);
-  }
-
-  background-image: url(${HeaderImg});
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-`;

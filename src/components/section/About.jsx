@@ -9,10 +9,11 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-10 mx-auto col-md-6 my-5">
-            <h1 className="text-capitalize">
+            <h1 className="text-capitalize about">
               about <strong>us</strong>
             </h1>
-            <p>
+
+            <p className="desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
               enim atque? Fugiat accusantium animi incidunt adipisci fugit
               cupiditate sunt quae nihil laborum, culpa, tempore expedita rerum,
@@ -20,7 +21,9 @@ function About() {
               labore nemo quam facere sit?
             </p>
 
-            <a href="##">explore</a>
+            <a href="##" className="book__btn xlo">
+              explore
+            </a>
           </div>
           <div className="col-10 mx-auto col-md-6 my-5 align-self-center">
             <ImageContainer className="img__container">
@@ -45,7 +48,7 @@ const ImageContainer = styled.div`
     left: -1.3rem;
     width: 100%;
     height: 100%;
-    outline: 0.5rem solid red;
+    outline: 0.3rem solid #9492924d;
     z-index: -1;
     transition: all 0.5s linear;
   }
@@ -53,7 +56,7 @@ const ImageContainer = styled.div`
   &:hover:before {
     top: 0;
     left: 0;
-    background: red;
+    background: #9492924d;
     outline 1;
   }
 `;
