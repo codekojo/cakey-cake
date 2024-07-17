@@ -14,11 +14,19 @@ function About() {
             </h1>
 
             <p className="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-              enim atque? Fugiat accusantium animi incidunt adipisci fugit
-              cupiditate sunt quae nihil laborum, culpa, tempore expedita rerum,
-              quasi velit voluptates nostrum quibusdam quia officiis numquam ab
-              labore nemo quam facere sit?
+              Welcome to Sweet Delights Bakery, where every cake is a work of
+              art and every bite is a taste of happiness. Our passion for baking
+              is matched only by our commitment to quality and creativity. We
+              specialize in crafting custom cakes for all occasions, from
+              birthdays and weddings to anniversaries and corporate events.
+            </p>
+            <p className="desc">
+              Our team of skilled bakers and decorators use only the finest
+              ingredients to create cakes that are not only beautiful but also
+              delicious. Whether you have a specific design in mind or need
+              inspiration, we're here to bring your cake dreams to life. Join us
+              on this sweet journey and discover the magic of Sweet Delights
+              Bakery.
             </p>
 
             <a href="##" className="book__btn xlo">

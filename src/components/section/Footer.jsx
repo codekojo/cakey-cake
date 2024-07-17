@@ -8,12 +8,12 @@ function Footer() {
           <div className="col px-3 text-center my-3">
             <img src={Logo} alt="" className="img-fluid" />
             <p className="text-secondary desc my-5 text-white w-75 mx-auto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Laboriosam quod quos deleniti, in ullam dolorem sequi nemo rem,
-              recusandae, iure ratione. Maxime libero soluta, vitae nisi alias
-              assumenda temporibus molestiae.
+              At Sweet Delights Bakery, we believe that every celebration
+              deserves a touch of sweetness. Our cakes are crafted with love and
+              attention to detail, ensuring that each bite is as memorable as
+              the occasion it celebrates.
             </p>
-            <p className="title">2021 Cake Cakey Cake</p>
+            <p className="title">© 2024 Sweet Delights Bakery</p>
           </div>
         </div>
       </div>
